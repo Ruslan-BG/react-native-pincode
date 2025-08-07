@@ -9,7 +9,7 @@ const React = require("react");
 const Animate_1 = require("react-move/Animate");
 const react_native_1 = require("react-native");
 const react_native_easy_grid_1 = require("react-native-easy-grid");
-const MaterialIcons_1 = require("react-native-vector-icons/MaterialIcons");
+const MaterialIcons_1 = require("@react-native-vector-icons/material-design-icons");
 var PinStatus;
 (function (PinStatus) {
     PinStatus["choose"] = "choose";
