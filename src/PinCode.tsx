@@ -18,7 +18,8 @@ import {
   ViewStyle
 } from "react-native";
 import { Col, Row, Grid } from "react-native-easy-grid";
-import Icon from "react-native-vector-icons/MaterialIcons";
+// import Icon from "react-native-vector-icons/MaterialIcons";
+import Icon from '@react-native-vector-icons/material-design-icons'
 
 /**
  * Pin Code Component
@@ -513,7 +514,7 @@ class PinCode extends React.PureComponent<IProps, IState> {
             <>
               {!this.props.iconButtonDeleteDisabled && (
                 <Icon
-                  name={this.props.styleDeleteButtonIcon}
+                  name={this.props.styleDeleteButtonIcon as any}
                   size={this.props.styleDeleteButtonSize}
                   color={this.state.colorDelete}
                   style={{ opacity: opacity }}
